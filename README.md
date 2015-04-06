@@ -25,3 +25,8 @@ the word list is a JSON object sorted by countrycode. Add the US english version
           "tank tops": "singlets"
          }
 ```
+### Future Goals ###
+
++ JSON file for wordlist
++ more accurate case detection
++ expanded wordlist/language support
