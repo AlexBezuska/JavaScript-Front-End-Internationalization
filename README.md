@@ -1,6 +1,10 @@
 Simple Localization
 ==================================================
 
+### Demo ###
+Check out the demo here:
+https://rawgit.com/AlexBezuska/Simple-Localization/master/demo.html
+
 ### Reference ###
 Include a script reference to 'simple-localization.js' in your html and specify the element(s) to run on as seen in 'Usage' below:
 ```html
