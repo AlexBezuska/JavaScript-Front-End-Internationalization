@@ -29,7 +29,7 @@ var wordList = {
         }
 };
 
-function replaceWordsAll ( countryCode, parentNode, wordList ) {
+function simpleLocalization ( countryCode, parentNode, wordList ) {
   textNodesUnder(parentNode).forEach(replaceWords.bind(undefined, wordList[countryCode]));
 }
 
