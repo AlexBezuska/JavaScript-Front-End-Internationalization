@@ -1,6 +1,9 @@
 Simple Localization
 ==================================================
 
+So this is not a real great idea for production use, this is more of a temporary band-aid for me, it should be done on the server-side (for SEO reasons).
+
+
 ### Demo ###
 Check out the demo here:
 https://rawgit.com/AlexBezuska/Simple-Localization/master/demo.html
