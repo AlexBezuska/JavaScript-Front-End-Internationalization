@@ -1,32 +1,32 @@
 var wordList = {
-        "AU": {
-          "favorite": "favourite",
-            "color": "colour",
-            "personalized": "personalised",
-            "tank top": "singlet",
-            "tank tops": "singlets",
-            "pants": "trousers",
-            "pajamas": "pyjamas",
-            "jewelry": "Jewellery",
-            "duvets": "doona",
-          	"US Word List": "AU Word List"
-        },
-        "CA": {
-          "favorite": "favourite",
-            "color": "colour",
-            "US Word List": "CA Word List"
-        },
-        "GB": {
-          "favorite": "favourite",
-            "color": "colour",
-            "personalized": "personalised",
-            "tank top": "vest",
-            "tank tops": "vests",
-            "pants": "trousers",
-            "pajamas": "pyjamas",
-            "jewelry": "Jewellery",
-            "US Word List": "GB Word List"
-        }
+  "AU": {
+    "favorite": "favourite",
+    "color": "colour",
+    "personalized": "personalised",
+    "tank top": "singlet",
+    "tank tops": "singlets",
+    "pants": "trousers",
+    "pajamas": "pyjamas",
+    "jewelry": "Jewellery",
+    "duvets": "doona",
+    "US Word List": "AU Word List"
+  },
+  "CA": {
+    "favorite": "favourite",
+    "color": "colour",
+    "US Word List": "CA Word List"
+  },
+  "GB": {
+    "favorite": "favourite",
+    "color": "colour",
+    "personalized": "personalised",
+    "tank top": "vest",
+    "tank tops": "vests",
+    "pants": "trousers",
+    "pajamas": "pyjamas",
+    "jewelry": "Jewellery",
+    "US Word List": "GB Word List"
+  }
 };
 
 function simpleLocalization ( countryCode, parentNode, wordList ) {
@@ -63,5 +63,5 @@ function textNodesUnder(node){
 }
 
 function toTitleCase(str){
-    return str.replace(/\w\S*/g, function(txt){return txt.charAt(0).toUpperCase() + txt.substr(1).toLowerCase();});
+  return str.replace(/\w\S*/g, function(txt){return txt.charAt(0).toUpperCase() + txt.substr(1).toLowerCase();});
 }
